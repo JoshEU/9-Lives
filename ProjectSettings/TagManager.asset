@@ -1,0 +1,81 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Terrain
+  - OutOfBounds
+  - LifeCat
+  - LifeBullet
+  - LifeEnemy
+  - DeathCat
+  - DeathBullet
+  - DeathEnemy
+  - LifeGround
+  - DeathGround
+  - Ammo
+  - Health
+  - damage
+  - fish
+  - ammo
+  - FakeWall
+  - ghost
+  - LifeCatCamera
+  - DeathCatCameraConfiner
+  - DeathCatCamera
+  - LifeCatCameraConfiner
+  - DeathFlyEnemy
+  - LifeFlyEnemy
+  - LifeSpawnOne
+  - LifeSpawnTwo
+  - LifeSpawnThree
+  - Smg
+  - AssaultRifle
+  - Pistol
+  - DeathCatHeart
+  - Mouse
+  - PistolPickup
+  - Dog
+  - SmgPickup
+  - AssaultRiflePickup
+  - BruteDog
+  - TransitionManager
+  - LifeFlyEnemyHealth
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Player
+  - Water
+  - UI
+  - Ground
+  - Gun
+  - Wall
+  - LifeEnemy
+  - DeathEnemy
+  - LifeBullet
+  - DeathBullet
+  - LifeGround
+  - DeathGround
+  - Portal
+  - LifeVC
+  - DeathVC
+  - CameraConfiner
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0

@@ -1,0 +1,443 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!181963792 &2655988077585873504
+Preset:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Wave1ItemSpawner
+  m_TargetType:
+    m_NativeTypeID: 114
+    m_ManagedTypePPtr: {fileID: 11500000, guid: f0f111e3a3065e44e8d25c1adaa0cd37, type: 3}
+    m_ManagedTypeFallback: 
+  m_Properties:
+  - target: {fileID: 0}
+    propertyPath: m_Enabled
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorHideFlags
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorClassIdentifier
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: beginWaveScript
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: itemsToSpawn.Array.size
+    value: 13
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: itemsToSpawn.Array.data[0]
+    value: 
+    objectReference: {fileID: 4125892559146728311, guid: b0c2c210c378e764fb1506b8f258b65e, type: 3}
+  - target: {fileID: 0}
+    propertyPath: itemsToSpawn.Array.data[1]
+    value: 
+    objectReference: {fileID: 7844053040971022581, guid: d3442a1d2bc54e7449c1099c5aa74cda, type: 3}
+  - target: {fileID: 0}
+    propertyPath: itemsToSpawn.Array.data[2]
+    value: 
+    objectReference: {fileID: 1744913304580604932, guid: 74b1cc0a76570c74d84e8972fd088e78, type: 3}
+  - target: {fileID: 0}
+    propertyPath: itemsToSpawn.Array.data[3]
+    value: 
+    objectReference: {fileID: 7241877359368386081, guid: 61f201b78693ccd42976e19be8bf3f66, type: 3}
+  - target: {fileID: 0}
+    propertyPath: itemsToSpawn.Array.data[4]
+    value: 
+    objectReference: {fileID: 2192758648446493539, guid: 41952982a1e322e41a9844082f18deb1, type: 3}
+  - target: {fileID: 0}
+    propertyPath: itemsToSpawn.Array.data[5]
+    value: 
+    objectReference: {fileID: 8375167980158883986, guid: a1ab8c12b97fca3439c557323c1a8248, type: 3}
+  - target: {fileID: 0}
+    propertyPath: itemsToSpawn.Array.data[6]
+    value: 
+    objectReference: {fileID: 5394362196553685080, guid: 607b172c432e6cd4c9ac72b3f138b7cb, type: 3}
+  - target: {fileID: 0}
+    propertyPath: itemsToSpawn.Array.data[7]
+    value: 
+    objectReference: {fileID: 7102283312528439041, guid: d8ff1dd9b7b4a9a4c95039f78d8d43c5, type: 3}
+  - target: {fileID: 0}
+    propertyPath: itemsToSpawn.Array.data[8]
+    value: 
+    objectReference: {fileID: 5616306293037148036, guid: d21a0cc5c9156d64e84fc77f37e3efd1, type: 3}
+  - target: {fileID: 0}
+    propertyPath: itemsToSpawn.Array.data[9]
+    value: 
+    objectReference: {fileID: 5394362196553685080, guid: cc45e67eed3abae40b0e15240bb412bc, type: 3}
+  - target: {fileID: 0}
+    propertyPath: itemsToSpawn.Array.data[10]
+    value: 
+    objectReference: {fileID: 9124561572144782413, guid: 28c3163b510991747b3a405c7c05e7df, type: 3}
+  - target: {fileID: 0}
+    propertyPath: itemsToSpawn.Array.data[11]
+    value: 
+    objectReference: {fileID: 628774258556174928, guid: 71afe9c958f372c41b23ac90e880ffb7, type: 3}
+  - target: {fileID: 0}
+    propertyPath: itemsToSpawn.Array.data[12]
+    value: 
+    objectReference: {fileID: 355923785434833513, guid: 80ddb9f5987e1324aa1ed98722acab82, type: 3}
+  - target: {fileID: 0}
+    propertyPath: lifeHealthSpawnLocations.Array.size
+    value: 3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: lifeHealthSpawnLocations.Array.data[0].x
+    value: -22.23
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: lifeHealthSpawnLocations.Array.data[0].y
+    value: 3.11
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: lifeHealthSpawnLocations.Array.data[0].z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: lifeHealthSpawnLocations.Array.data[1].x
+    value: -2.3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: lifeHealthSpawnLocations.Array.data[1].y
+    value: 21.9
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: lifeHealthSpawnLocations.Array.data[1].z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: lifeHealthSpawnLocations.Array.data[2].x
+    value: -22.89
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: lifeHealthSpawnLocations.Array.data[2].y
+    value: 37.95
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: lifeHealthSpawnLocations.Array.data[2].z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: lifeShieldSpawnLocations.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: lifeSpeedBoostSpawnLocations.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: lifeDoubleDmgSpawnLocations.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: lifeWeaponSpawnLocations.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: lifeEnemySpawnLocations.Array.size
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: lifeEnemySpawnLocations.Array.data[0].x
+    value: -22.71
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: lifeEnemySpawnLocations.Array.data[0].y
+    value: 16.12
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: lifeEnemySpawnLocations.Array.data[0].z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: lifeEnemySpawnLocations.Array.data[1].x
+    value: -2.55
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: lifeEnemySpawnLocations.Array.data[1].y
+    value: 34.34
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: lifeEnemySpawnLocations.Array.data[1].z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: deathHealthSpawnLocations.Array.size
+    value: 3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: deathHealthSpawnLocations.Array.data[0].x
+    value: 22.64
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: deathHealthSpawnLocations.Array.data[0].y
+    value: 3.11
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: deathHealthSpawnLocations.Array.data[0].z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: deathHealthSpawnLocations.Array.data[1].x
+    value: 3.24
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: deathHealthSpawnLocations.Array.data[1].y
+    value: 21.9
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: deathHealthSpawnLocations.Array.data[1].z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: deathHealthSpawnLocations.Array.data[2].x
+    value: 23.32
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: deathHealthSpawnLocations.Array.data[2].y
+    value: 37.95
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: deathHealthSpawnLocations.Array.data[2].z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: deathShieldSpawnLocations.Array.size
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: deathShieldSpawnLocations.Array.data[0].x
+    value: 20.78
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: deathShieldSpawnLocations.Array.data[0].y
+    value: -2.74
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: deathShieldSpawnLocations.Array.data[0].z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: deathShieldSpawnLocations.Array.data[1].x
+    value: 20.78
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: deathShieldSpawnLocations.Array.data[1].y
+    value: 6.98
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: deathShieldSpawnLocations.Array.data[1].z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: deathSpeedBoostSpawnLocations.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: deathDoubleDmgSpawnLocations.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: deathWeaponSpawnLocations.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: deathEnemySpawnLocations.Array.size
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: deathEnemySpawnLocations.Array.data[0].x
+    value: 23.01
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: deathEnemySpawnLocations.Array.data[0].y
+    value: 16.12
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: deathEnemySpawnLocations.Array.data[0].z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: deathEnemySpawnLocations.Array.data[1].x
+    value: 3.1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: deathEnemySpawnLocations.Array.data[1].y
+    value: 34.34
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: deathEnemySpawnLocations.Array.data[1].z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: healthSpawnDelay
+    value: 8
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: shieldSpawnDelay
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: speedBoostSpawnDelay
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: doubleDmgSpawnDelay
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: weaponSpawnDelay
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: lifeEnemySpawnDelay
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: deathEnemySpawnDelay
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: canSpawnLifeHealth
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: canSpawnLifeShield
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: canSpawnLifeSpeedBoost
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: canSpawnLifeDoubleDmg
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: canSpawnLifeEnemy
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: canSpawnLifeWeapon
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: canSpawnDeathHealth
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: canSpawnDeathShield
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: canSpawnDeathSpeedBoost
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: canSpawnDeathDoubleDmg
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: canSpawnDeathEnemy
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: canSpawnDeathWeapon
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: lifeHealthCurrentList.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: deathHealthCurrentList.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: lifeShieldCurrentList.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: deathShieldCurrentList.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: lifeSpeedBoostCurrentList.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: deathSpeedBoostCurrentList.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: lifeDoubleDmgCurrentList.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: deathDoubleDmgCurrentList.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: lifeWeaponCurrentList.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: deathWeaponCurrentList.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: lifeEnemyParentObj
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: deathEnemyParentObj
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: lifePowerUpParentObj
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: deathPowerUpParentObj
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: numOfStartingHealth
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: numOfStartingShields
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: numOfStartingSpeedBoosts
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: numOfStartingDoubleDamages
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: numOfStartingWeapons
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: numOfStartingEnemies
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: totalLifeEnemiesSpawnedIn
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: totalDeathEnemiesSpawnedIn
+    value: 0
+    objectReference: {fileID: 0}
+  m_ExcludedProperties: []
